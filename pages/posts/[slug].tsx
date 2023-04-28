@@ -34,10 +34,7 @@ export default function Post({ post, posts, preview }) {
                 <title>
                   {`${post.title} | Next.js Blog Example with ${CMS_NAME}`}
                 </title>
-                <meta
-                  property="og:image"
-                  content={post.featuredImage?.node.sourceUrl}
-                />
+                <meta property="og:image" content={post.featuredImage.node.sourceUrl} />
               </Head>
               <PostHeader
                 title={post.title}
