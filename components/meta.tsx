@@ -30,7 +30,6 @@ export default function Meta() {
       <link rel="shortcut icon" href="/favicon/favicon.ico" />
       <meta property="og:type" content="article" />
       <meta property="og:locale" content="en_US" />
-      <meta property="og:url" content={`https://${host}/${path}`} />
       <meta name="msapplication-TileColor" content="#000000" />
       <meta name="msapplication-config" content="/favicon/browserconfig.xml" />
       <meta name="theme-color" content="#000" />
