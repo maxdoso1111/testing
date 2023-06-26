@@ -31,7 +31,7 @@ export default function Post({ post, posts, preview }) {
             <article>
               
                 
-              </Head>
+              
               <PostHeader
                 title={post.title}
                 coverImage={post.featuredImage}
