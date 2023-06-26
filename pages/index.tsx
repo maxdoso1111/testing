@@ -6,9 +6,9 @@ import { CMS_NAME } from '../lib/constants'
 
 export default function Index({ allPosts: { edges }, preview }) {
 }
-export const getStaticProps: GetStaticProps = async ({ preview = true }) => {
+export const getStaticProps: GetStaticProps = async ({ preview = false }) => {
   
    return {
-    revalidate: 1,
+    revalidate: 10,
   }
 }
