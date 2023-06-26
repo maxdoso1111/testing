@@ -10,7 +10,16 @@ export default function Index({ allPosts: { edges }, preview }) {
   const morePosts = edges.slice(1)
 
   return (
-    <Layout>
+    
+      <Layout preview={preview}>
+      <Container>
+        <Intro />
+        {heroPost && (
+          <HeroPost
+            title={heroPost.title}
+        />
+        )}
+      </Container>
     </Layout>
   )
 }
