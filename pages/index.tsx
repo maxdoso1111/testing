@@ -9,7 +9,7 @@ export default function Index({ allPosts: { edges }, preview }) {
 export const getStaticProps: GetStaticProps = async ({ preview = false }) => {
   
    return {
-    props: { allPosts, preview },
+    props: { preview },
     revalidate: 1,
   }
 }
