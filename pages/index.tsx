@@ -13,7 +13,6 @@ export default function Index({ allPosts: { edges }, preview }) {
     
       <Layout preview={preview}>
       <Container>
-        <Intro />
         {heroPost && (
           <HeroPost
             title={heroPost.title}
