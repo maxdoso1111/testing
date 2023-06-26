@@ -13,11 +13,7 @@ export default function Index({ allPosts: { edges }, preview }) {
     
       <Layout preview={preview}>
       <Container>
-        {heroPost && (
-          <HeroPost
-            title={heroPost.title}
-        />
-        )}
+       
       </Container>
     </Layout>
   )
