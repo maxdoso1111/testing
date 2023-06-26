@@ -14,12 +14,7 @@ import { CMS_NAME } from '../../lib/constants'
 
 export default function Post({ post, posts, preview }) {
   const router = useRouter()
-  const morePosts = posts?.edges
 
-
-
-  return (
-  )
 }
 
 export const getStaticProps: GetStaticProps = async ({
